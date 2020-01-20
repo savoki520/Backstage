@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" data-page="index">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理系统</title>
+    <link rel="icon" href="http://www.youguangchina.cn/yxgj/Mall/image/YG.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=XjraEGMdO6BPkUd7VOhGsZKWmLyaPlGT"></script>
+</head>
+<body>
+<!--导航部分-->
+<header class="nav">
+    <div class="nav_one">
+        <span>后台管理系统</span>
+    </div>
+    <div class="nav_two">
+        <div class="nav_two_one">
+            <div class="nav_img">
+                <img src="img/index/i_0.png">
+            </div>
+            <div class="nav_box">
+                <div class="nav_name">小包子，欢迎您！</div>
+                <div class="nav_addressbox">
+                    <span class="nav_addressone">中国，</span>
+                    <span class="nav_city"></span>
+                </div>
+            </div>
+        </div>
+        <div class="nav_two_two">
+            <ul class="nav_ul">
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">管理</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li ">
+                            <a class="nav_ul_lia" href="index.html">
+                                <div class="nav_ul_li_title">活动管理</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="merchant.html">
+                                <div class="nav_ul_li_title">商家管理</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="headmanagement.html">
+                                <div class="nav_ul_li_title">团长管理</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">首页</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul" style="display: block;">
+                        <li class="nav_ul_li nav_add">
+                            <a class="nav_ul_lia" href="#">
+                                <div class="nav_ul_li_title">团长信息</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="acshow.html">
+                                <div class="nav_ul_li_title">活动展示</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">申请提醒</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="application.html">
+                                <div class="nav_ul_li_title">团长申请</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="mcapplication.html">
+                                <div class="nav_ul_li_title">商家申请</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">资金管理</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="cashflow.html">
+                                <div class="nav_ul_li_title">资金流水</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="employee.html">
+                                <div class="nav_ul_li_title">员工分红</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav_logout">
+        <div class="nav_box">
+            <div class="logout_img">
+                <img src="img/index/l_0.png">
+            </div>
+            <div class="logout_text">注销</div>
+        </div>
+    </div>
+</header>
+<!--主体内容部分-->
+<section class="content">
+    <!--主体头部导航栏-->
+    <div class="content_one">
+        <div class="content_one_two">
+            <div class="content_intro">
+                <div class="content_avter">
+                    <img src="img/index/i_0.png">
+                </div>
+                <div class="content_name">小包子</div>
+            </div>
+        </div>
+        <div class="content_one_one">
+            <div class="content_notice">
+                <img class="notice" src="img/index/n_0.png">
+            </div>
+        </div>
+    </div>
+    <div class="hd">
+        <div class="hdinfor_item">
+            <div class="hdinfor_itemtitle">真实数据</div>
+            <div class="hdinfor_itembox">
+                <div class="hdinfor_itemimg">
+                    <img src="img/hdinfor/h_0.png">
+                    <div class="infor_itemfont">1589</div>
+                </div>
+            </div>
+            <div class="hdinfor_itembox">
+                <div class="hdinfor_itemimg">
+                    <img src="img/hdinfor/h_1.png">
+                    <div class="infor_itemfont">1589</div>
+                </div>
+            </div>
+            <div class="hdinfor_itembox">
+                <div class="hdinfor_itemimg">
+                    <img src="img/hdinfor/h_2.png">
+                    <div class="infor_itemfont">1589</div>
+                </div>
+            </div>
+        </div>
+        <div class="hdinfor_item">
+            <div class="hdinfor_itemtitle">编辑数据</div>
+            <div class="hdinfor_itembox">
+                <div class="hdinfor_itemimg">
+                    <img src="img/hdinfor/h_0.png">
+                    <div class="infor_itemfont">1589</div>
+                </div>
+                <div class="infor_edit" data-id="在线团长">编辑</div>
+            </div>
+            <div class="hdinfor_itembox">
+                <div class="hdinfor_itemimg">
+                    <img src="img/hdinfor/h_1.png">
+                    <div class="infor_itemfont">1589</div>
+                </div>
+                <div class="infor_edit" data-id="已获佣金">编辑</div>
+            </div>
+            <div class="hdinfor_itembox">
+                <div class="hdinfor_itemimg">
+                    <img src="img/hdinfor/h_2.png">
+                    <div class="infor_itemfont">1589</div>
+                </div>
+                <div class="infor_edit" data-id="分享次数">编辑</div>
+            </div>
+        </div>
+    </div>
+    <div class="hd_modify">
+        <div class="hd_modifybox">
+            <div class="hd_modify_title">在线团长</div>
+            <div class="hd_modify_box">
+                <input type="text" id="hd_modify_number">
+            </div>
+            <div class="hd_modify_operate">
+                <div class="hd_modify_operat hd_modify_ok">确认</div>
+                <div class="hd_modify_operat hd_modify_cannel">取消</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="allmap"></div>
+<script src="js/rem.js" type="text/javascript"></script>
+<script src="js/jquery.min.js"></script>
+<script src="lib/wangEditor-3.1.0/release/wangEditor.min.js"></script>
+<script src="js/index.js"></script>
+<script src="layui/layui.js"></script>
+<script>
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(116.331398,39.897445);
+    map.centerAndZoom(point,12);
+    function myFun(result){
+        var cityName = result.name;
+        map.setCenter(cityName);
+        $('.nav_city').text(cityName);
+    }
+    var myCity = new BMap.LocalCity();
+    myCity.get(myFun);
+    localStorage.setItem('key','headinfor');
+</script>
+</body>
+</html>

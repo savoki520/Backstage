@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-page="index">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理系统</title>
+    <link rel="icon" href="http://www.youguangchina.cn/yxgj/Mall/image/YG.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=XjraEGMdO6BPkUd7VOhGsZKWmLyaPlGT"></script>
+</head>
+<body>
+<!--导航部分-->
+<header class="nav">
+    <div class="nav_one">
+        <span>后台管理系统</span>
+    </div>
+    <div class="nav_two">
+        <div class="nav_two_one">
+            <div class="nav_img">
+                <img src="img/index/i_0.png">
+            </div>
+            <div class="nav_box">
+                <div class="nav_name">小包子，欢迎您！</div>
+                <div class="nav_addressbox">
+                    <span class="nav_addressone">中国，</span>
+                    <span class="nav_city">常州</span>
+                </div>
+            </div>
+        </div>
+        <div class="nav_two_two">
+            <ul class="nav_ul">
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">管理</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="index.html">
+                                <div class="nav_ul_li_title">活动管理</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="merchant.html">
+                                <div class="nav_ul_li_title">商家管理</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="headmanagement.html">
+                                <div class="nav_ul_li_title">团长管理</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">首页</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="headinformation.html">
+                                <div class="nav_ul_li_title">团长信息</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="acshow.html">
+                                <div class="nav_ul_li_title">活动展示</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">申请提醒</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="application.html">
+                                <div class="nav_ul_li_title">团长申请</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="mcapplication.html">
+                                <div class="nav_ul_li_title">商家申请</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">资金管理</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul"  style="display: block;">
+                        <li class="nav_ul_li nav_add">
+                            <a class="nav_ul_lia " href="#">
+                                <div class="nav_ul_li_title">资金流水</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="employee.html">
+                                <div class="nav_ul_li_title">员工分红</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav_logout">
+        <div class="nav_box">
+            <div class="logout_img">
+                <img src="img/index/l_0.png">
+            </div>
+            <div class="logout_text">注销</div>
+        </div>
+    </div>
+</header>
+<!--主体内容部分-->
+<section class="content">
+    <!--主体头部导航栏-->
+    <div class="content_one">
+        <div class="content_one_two">
+            <div class="content_intro">
+                <div class="content_avter">
+                    <img src="img/index/i_0.png">
+                </div>
+                <div class="content_name">小包子</div>
+            </div>
+        </div>
+        <div class="content_one_one">
+            <div class="content_notice">
+                <img class="notice" src="img/index/n_0.png">
+            </div>
+        </div>
+    </div>
+    <div class="cash">
+        <div class="cash_header">
+            <div class="cash_header_item cash_header_itemadd" data-id="1">商家货款</div>
+            <div class="cash_header_item" data-id="0">团长佣金</div>
+        </div>
+        <div class="cash_content">
+            <!--<div class="cash_item">-->
+                <!--<div class="cash_item_one">-->
+                    <!--<div class="cash_item_fontone">-->
+                        <!--<span>商户名称：</span>-->
+                        <!--<span class="cash_name">猫白商店</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo">-->
+                        <!--<span>联系方式：</span>-->
+                        <!--<span class="cash_tel">18121838177</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo">-->
+                        <!--<span>负&nbsp;责&nbsp;人&nbsp;：</span>-->
+                        <!--<span class="cash_prosonl">李先生</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_line"></div>-->
+                    <!--<div class="cash_item_fonttwo" style="text-align: center">-->
+                        <!--<span style="width: 100%;">销售额</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo"  style="color: red">-->
+                        <!--<span><span class="cash_item_m"></span>销售额：</span>-->
+                        <!--<span class="cash_prosonl">￥1584.50</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo" style="color: red">-->
+                        <!--<span>总销售额：</span>-->
+                        <!--<span class="cash_prosonl">￥45786.95</span>-->
+                    <!--</div>-->
+
+                    <!--<div class="cash_line"></div>-->
+                    <!--<div class="cash_item_fonttwo" style="text-align: center">-->
+                        <!--<span style="width: 100%;">商家收益</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo" style="color: red">-->
+                        <!--<span>手续费：</span>-->
+                        <!--<span class="cash_prosonl">5%</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo"  style="color: red">-->
+                        <!--<span><span class="cash_item_m"></span>收益：</span>-->
+                        <!--<span class="cash_prosonl">￥1584.50</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo" style="color: red">-->
+                        <!--<span>总收益：</span>-->
+                        <!--<span class="cash_prosonl">￥45786.95</span>-->
+                    <!--</div>-->
+
+                    <!--<div class="cash_line"></div>-->
+                    <!--<div class="cash_item_fonttwo" style="text-align: center">-->
+                        <!--<span style="width: 100%;">平台收益</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo"  style="color: red">-->
+                        <!--<span><span class="cash_item_m"></span>收益：</span>-->
+                        <!--<span class="cash_prosonl">￥1584.50</span>-->
+                    <!--</div>-->
+                    <!--<div class="cash_item_fonttwo" style="color: red">-->
+                        <!--<span>总收益：</span>-->
+                        <!--<span class="cash_prosonl">￥45786.95</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="cash_item_two" onclick="cash('45478')">查看详情</div>-->
+            <!--</div>-->
+        </div>
+        <div class="cash_pagination">
+            <div class="table_page">
+                <div id="cashPage"></div>
+            </div>
+        </div>
+        <div class="cash_footer">
+            <div class="cash_footerbox" id="shopfooter">
+                <div class="cash_footer_item">
+                    <div class="cash_footer_itemtitle">商家收益</div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname"><span class="cash_munth"></span>商家收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalshopmonthsales"></div>
+                    </div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname">商家总收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalshopsales"></div>
+                    </div>
+                </div>
+                <div class="cash_footer_item">
+                    <div class="cash_footer_itemtitle">商家纯收益</div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname"><span class="cash_munth">12月/上</span>纯收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalshopmonthprofit"></div>
+                    </div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname">总纯收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalshopprofit"></div>
+                    </div>
+                </div>
+                <div class="cash_footer_item">
+                    <div class="cash_footer_itemtitle">平台收益</div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname"><span class="cash_munth">12月/上</span>收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalshopmonthfee"></div>
+                    </div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname">总收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont"id="totalshopfee"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cash_footerbox" id="headfooter">
+                <div class="cash_footer_item">
+                    <div class="cash_footer_itemtitle">佣金总额</div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname"><span class="cash_munth"></span>佣金总额<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalheadmonthsales"></div>
+                    </div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname">佣金总额<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalheadsales"></div>
+                    </div>
+                </div>
+                <div class="cash_footer_item">
+                    <div class="cash_footer_itemtitle">团长收益</div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname"><span class="cash_munth"></span>佣金收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalheadmonthprofit"></div>
+                    </div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname">佣金总收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalheadprofit"></div>
+                    </div>
+                </div>
+                <div class="cash_footer_item">
+                    <div class="cash_footer_itemtitle">平台收益</div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname"><span class="cash_munth"></span>佣金收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalheadmonthfee"></div>
+                    </div>
+                    <div class="cash_footer_itembox">
+                        <div class="cash_footer_itemname">佣金总收益<span class="ca_line"></span></div>
+                        <div class="cash_footer_itemfont" id="totalheadfee"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--收益明细-->
+<section class="detail">
+    <div class="detail_box">
+        <div class="detail_title">货款明细</div>
+        <div class="detail_header">
+            <div class="detail_header_time">时间</div>
+            <div class="detail_header_amount">收益</div>
+            <div class="detail_header_remark">备注</div>
+            <div class="detail_header_operate">操作</div>
+        </div>
+        <div class="detail_content">
+            <!--<div class="detail_no">暂无数据</div>-->
+            <div class="detail_item">
+                <div class="detail_item_time">2019年12月上半月</div>
+                <div class="detail_item_amount">82054.52</div>
+                <div class="detail_item_remark">已到账</div>
+                <div class="detail_item_no">无</div>
+                <div class="detail_item_operate">
+                    <div class="detail_item_operating">补账</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="detail_cannel">
+            <img src="img/acshow/s_2.png">
+        </div>
+    </div>
+</section>
+
+<div id="allmap"></div>
+<script src="js/rem.js" type="text/javascript"></script>
+<script src="js/jquery.min.js"></script>
+<script src="lib/wangEditor-3.1.0/release/wangEditor.min.js"></script>
+<script src="js/index.js"></script>
+<script src="layui/layui.js"></script>
+<script>
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(116.331398,39.897445);
+    map.centerAndZoom(point,12);
+    function myFun(result){
+        var cityName = result.name;
+        map.setCenter(cityName);
+        $('.nav_city').text(cityName);
+    }
+    var myCity = new BMap.LocalCity();
+    myCity.get(myFun);
+    localStorage.setItem('key','cashflow');
+    var myDate = new Date();
+    var month=myDate.getMonth()+1;
+    var day = myDate.getDate(),m;
+    if(day >=15){
+        m = '/下';
+    }else {
+        m = '/上';
+    }
+    $('.cash_item_m').text(month+'月'+m);
+    $('.cash_munth').text(month+ '月'+m);
+    layui.use('laypage', function(){
+        var laypage = layui.laypage;
+        //执行一个laypage实例
+        laypage.render({
+            elem: 'cashPage' //注意，这里的 test1 是 ID，不用加 # 号
+            ,count: 40 //数据总数
+            ,limit:10
+            ,jump: function(obj,fa){
+                if(!fa){
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" data-page="index">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理系统</title>
+    <link rel="icon" href="http://www.youguangchina.cn/yxgj/Mall/image/YG.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=XjraEGMdO6BPkUd7VOhGsZKWmLyaPlGT"></script>
+</head>
+<body>
+<!--导航部分-->
+<header class="nav">
+    <div class="nav_one">
+        <span>后台管理系统</span>
+    </div>
+    <div class="nav_two">
+        <div class="nav_two_one">
+            <div class="nav_img">
+                <img src="img/index/i_0.png">
+            </div>
+            <div class="nav_box">
+                <div class="nav_name">小包子，欢迎您！</div>
+                <div class="nav_addressbox">
+                    <span class="nav_addressone">中国，</span>
+                    <span class="nav_city">常州</span>
+                </div>
+            </div>
+        </div>
+        <div class="nav_two_two">
+            <ul class="nav_ul">
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">管理</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="index.html">
+                                <div class="nav_ul_li_title">活动管理</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="merchant.html">
+                                <div class="nav_ul_li_title">商家管理</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="headmanagement.html">
+                                <div class="nav_ul_li_title">团长管理</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">首页</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="headinformation.html">
+                                <div class="nav_ul_li_title">团长信息</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="acshow.html">
+                                <div class="nav_ul_li_title">活动展示</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">申请提醒</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul" style="display: block;">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="application.html">
+                                <div class="nav_ul_li_title">团长申请</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li nav_add">
+                            <a class="nav_ul_lia" href="#">
+                                <div class="nav_ul_li_title">商家申请</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_itema" href="#">
+                        <div class="nav_item_img">
+                            <img src="img/index/h_0_0.png">
+                        </div>
+                        <div class="nav_item_title">资金管理</div>
+                        <div class="nav_item_down">
+                            <img src="img/index/d_0.png">
+                        </div>
+                    </a>
+                    <ul class="nav_item_ul">
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="cashflow.html">
+                                <div class="nav_ul_li_title">资金流水</div>
+                            </a>
+                        </li>
+                        <li class="nav_ul_li">
+                            <a class="nav_ul_lia" href="employee.html">
+                                <div class="nav_ul_li_title">员工分红</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav_logout">
+        <div class="nav_box">
+            <div class="logout_img">
+                <img src="img/index/l_0.png">
+            </div>
+            <div class="logout_text">注销</div>
+        </div>
+    </div>
+</header>
+<!--主体内容部分-->
+<section class="content">
+    <!--主体头部导航栏-->
+    <div class="content_one">
+        <div class="content_one_two">
+            <div class="content_intro">
+                <div class="content_avter">
+                    <img src="img/index/i_0.png">
+                </div>
+                <div class="content_name">小包子</div>
+            </div>
+        </div>
+        <div class="content_one_one">
+            <div class="content_notice">
+                <img class="notice" src="img/index/n_0.png">
+            </div>
+        </div>
+    </div>
+    <div class="mcapplicate">
+        <!--<div class="applicate_header">-->
+        <!--<div class="applicate_header_item applicate_header_itemadd">金牌团长</div>-->
+        <!--<div class="applicate_header_item">普通团长</div>-->
+        <!--</div>-->
+        <div class="mcapplicate_content">
+            <div class="mcapplicate_c_one">
+                <div class="mcapplicate_c_onefont mcapplicate_c_oneadd" data-id="0">未读
+                    <div class="mcapplicate_c_oneline"></div>
+                </div>
+                <div class="mcapplicate_c_onefont" data-id="1">已读
+                    <div class="mcapplicate_c_oneline"></div>
+                </div>
+            </div>
+            <div class="mcapplicate_c_two">
+                <!--<div class="applicate_item">-->
+                    <!--<div class="applicate_item_one">-->
+                        <!--<div class="applicate_item_font">姓名：<span class="appliate_name">李先生</span></div>-->
+                        <!--<div class="applicate_item_font">电话：<span class="applicate_phone">13794596214</span></div>-->
+                        <!--<div class="applicate_item_font">商户地址：<span class="applicate_address" title="四川省内江市东兴区大千路58号兴隆小区15栋301">四川省内江市东兴区大千路58号兴隆小区15栋301</span></div>-->
+                        <!--<div class="applicate_item_font">商户名称：<span class="applicate_shopname" title="有光科技">有光科技</span></div>-->
+                        <!--<div class="application_item_img">-->
+                            <!--<img src="img/application/a_0.png">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="applicate_item_two">-->
+                        <!--<div class="applicate_item_ok applicate_item_button">通过</div>-->
+                        <!--<div class="applicate_item_canel applicate_item_button">驳回</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="mcapplicate_pagination">
+            <div class="table_page">
+                <div id="applicatePage"></div>
+            </div>
+        </div>
+    </div>
+    <!--新建商家-->
+    <section class="new_merchant">
+        <div class="merchant" data-page="1">
+            <div class="merchant_remove">
+                <img src="img/acshow/s_2.png">
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">商户名称:</div>
+                <input type="text" id="shopName">
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">商户地址:</div>
+                <input type="text" id="shopAddress">
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">负责人:</div>
+                <input type="text" id="shopprople">
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">联系方式:</div>
+                <input type="text" id="shopphoneone" onchange="numberlimit($('#shopphoneone'))">
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">其他联系方式:</div>
+                <input type="text" id="shopphonetwo" onchange="numberlimit($('#shopphonetwo'))">
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">手续费:</div>
+                <input type="text" id="merchant_fee">
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">入驻时间:</div>
+                <div class="merchant_onetime">
+                    <input type="text" id="shoptime">
+                </div>
+            </div>
+            <div class="merchant_one">
+                <div class="merchant_onetitle">营业时间:</div>
+                <input type="text" id="opentime">
+            </div>
+            <div class="mcapp_ok">确定</div>
+        </div>
+    </section>
+</section>
+
+
+<div id="allmap"></div>
+<script src="js/rem.js" type="text/javascript"></script>
+<script src="js/jquery.min.js"></script>
+<script src="lib/wangEditor-3.1.0/release/wangEditor.min.js"></script>
+<script src="js/index.js"></script>
+<script src="layui/layui.js"></script>
+<script>
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(116.331398,39.897445);
+    map.centerAndZoom(point,12);
+    function myFun(result){
+        var cityName = result.name;
+        map.setCenter(cityName);
+        $('.nav_city').text(cityName);
+    }
+    var myCity = new BMap.LocalCity();
+    myCity.get(myFun);
+    localStorage.setItem('key','mcapplicate');
+    var mydata = new Date();
+    var time = mydata.getFullYear().toString()+ '-' + (mydata.getMonth()+1).toString()+ '-' + mydata.getDate().toString();
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#opentime'
+            ,type: 'time'
+            ,range: true //或 range: '~' 来自定义分割字符
+        });
+        laydate.render({
+            elem: '#shoptime',
+            max:time
+        });
+    });
+</script>
+</body>
+</html>
